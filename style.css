@@ -1,0 +1,157 @@
+
+/* Element Selector */
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff8f8;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #800020;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #800020;
+    border-bottom: 2px solid #800020;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #f2dfe4;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #800020;
+    text-decoration: none;
+}
+
+header a,
+footer a {
+    color: white;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f2b6c6;
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    border-left: 5px solid #350d17;
+    box-shadow: 0 2px 8px rgba(128, 0, 32, 0.08);
+}
+
+ul,
+ol {  
+    padding-left: 25px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e8c5cf;
+}
+
+/* Class Selector */
+.highlight {
+    color: #f9ab;
+    font-weight: bold;
+}
+
+.details {
+    background-color: #f9abe7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ID Selectors */
+#about,
+#internships,
+#contact {
+    background-color: #f9ab;
+}
+
+#education,
+#certifications {
+    background-color: #f9ab;
+}
+
+#skills,
+#projects {
+    background-color: #f9ab;
+}
+
+/* Contact Links */
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #f80202;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
